@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int distance = 120;
         int volume = 8;
-        int consumption = (distance / 100) * volume; //узнаем по формуле расход на 100км;
+        double consumption = distance * volume / 100;
         System.out.println(consumption);
     }
 }
